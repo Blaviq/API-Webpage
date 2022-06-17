@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand:hover{
+    color: #0a0909 !important;
+}
+nav ul li a:hover{
+    color: #0a0909 !important;
+    font-weight: bold;
+}
+
+.btn:hover {
+    font-weight: bold;
+}
+
+.top-section {
+    background-image: url("../img/page-banner.jpg");
+}
+
+.form-control {
+    border: 1px solid rgb(154, 152, 152);
+    border-radius: 5px;
+}
+
+.card{
+    background-color: #ccc;
+    box-shadow:#0a0909;
+}
