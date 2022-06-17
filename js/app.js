@@ -143,7 +143,7 @@ function renderUI (arr) {
                             <div class="card-body">
                                 <p class="text-center fw-bold">${post.id}</p>
                                 <h6 class="post-title text-capitalize">${post.title}</h6>
-                                <p class="post-body">${post.body}</p>
+                                <p class="post-body">${post.body.slice(0,50)}...</p>
                                 <div class="d-flex justify-content-between">
                                     <button class="btn btn-info" onclick="updatePost(${post.id})">Update</button>
                                     <button class="btn btn-secondary" id="view-btn" onclick="openSingle(${post.id})">view</button>
